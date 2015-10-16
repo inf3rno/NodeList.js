@@ -1,0 +1,30 @@
+{
+  "name": "nodelist.js",
+  "version": "0.1.0",
+  "description": "NodeList implementation/library - Use the Native DOM APIs as easily as jQuery",
+  "keywords": [
+    "dom"
+  ],
+  "license": "MIT",
+  "author": "Edwin Reynoso",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eorroe/NodeList.js"
+  },
+  "bugs": {
+    "url": "https://github.com/eorroe/NodeList.js/issues"
+  },
+  "main": "dist/nodejs/nodelist.js",
+  "scripts": {
+    "release": "gulp release"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "del": "^2.0.2",
+    "glob": "^5.0.15",
+    "gulp": "^3.9.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-task-file-loader": "^1.0.0",
+    "gulp-uglify": "^1.4.2"
+  }
+}
