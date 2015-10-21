@@ -3,12 +3,12 @@ var gulp = require("gulp"),
     rename = require("gulp-rename");
 
 module.exports = function () {
-    return gulp.src("dist/browser/*.js")
+    return gulp.src("dist/*.js")
         .pipe(uglify())
         .pipe(rename(function (path) {
             path.basename += ".min";
             return path;
         }))
-        .pipe(gulp.dest("dist/browser"));
+        .pipe(gulp.dest("dist"));
 };
 
